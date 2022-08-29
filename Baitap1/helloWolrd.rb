@@ -9,7 +9,7 @@ puts "Số bạn vừa nhập là: #{num}"
 puts
 
 # So sánh 2 giá trị nhập vào từ bàn phím, in ra giá trị lớn hơn
-puts "Tính tổng 2 số"
+puts "So sánh 2 số"
 print "Nhập số thứ nhất: n1 = "
 num_1 = gets.chomp
 print "Nhập số thứ nhất: n2 = "
