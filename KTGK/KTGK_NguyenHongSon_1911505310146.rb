@@ -115,14 +115,14 @@ car2_46 = Car.new(2,"kia",2022,"suv",500,"33423","do","5","v6","xang",10,"19/4/2
 motorcycle1_46 = Motorcycle.new(3,"honda",2022,"2 cho",56,"65763","trang",50,150)
 motorcycle2_46 = Motorcycle.new(4,"yamaha",2022,"2 cho",40,"34212","den",50,150)
 truck1_46 = Truck.new(5,"volvo",2022,"tai",1200,"88492","trang",20)
-truck2-46 = Truck.new(6,"volvo",2022,"tai",1500,"99958","trang",30)
+truck2_46 = Truck.new(6,"volvo",2022,"tai",1500,"99958","trang",30)
 
 managerVehicle_46.addVehicle(car1_46)
 managerVehicle_46.addVehicle(car2_46)
 managerVehicle_46.addVehicle(motorcycle1_46)
 managerVehicle_46.addVehicle(motorcycle2_46)
 managerVehicle_46.addVehicle(truck1_46)
-managerVehicle_46.addVehicle(truck2-46)
+managerVehicle_46.addVehicle(truck2_46)
 
 managerVehicle_46.searchByBranch("volvo")
 managerVehicle_46.searchByColor("xanh")
