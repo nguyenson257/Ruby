@@ -108,22 +108,22 @@ class ManagerVehicle
     end
 end
 
-managerVehicle =  ManagerVehicle.new
+managerVehicle_46 =  ManagerVehicle.new
 
-car1 = Car.new(1,"toyota",2022,"suv",600,"77483","xanh duong","4","v6","xang",8,"22/8/2022")
-car2 = Car.new(2,"kia",2022,"suv",500,"33423","do","5","v6","xang",10,"19/4/2022")
-motorcycle1 = Motorcycle.new(3,"honda",2022,"2 cho",56,"65763","trang",50,150)
-motorcycle2 = Motorcycle.new(4,"yamaha",2022,"2 cho",40,"34212","den",50,150)
-truck1 = Truck.new(5,"volvo",2022,"tai",1200,"88492","trang",20)
-truck2 = Truck.new(6,"volvo",2022,"tai",1500,"99958","trang",30)
+car1_46 = Car.new(1,"toyota",2022,"suv",600,"77483","xanh duong","4","v6","xang",8,"22/8/2022")
+car2_46 = Car.new(2,"kia",2022,"suv",500,"33423","do","5","v6","xang",10,"19/4/2022")
+motorcycle1_46 = Motorcycle.new(3,"honda",2022,"2 cho",56,"65763","trang",50,150)
+motorcycle2_46 = Motorcycle.new(4,"yamaha",2022,"2 cho",40,"34212","den",50,150)
+truck1_46 = Truck.new(5,"volvo",2022,"tai",1200,"88492","trang",20)
+truck2-46 = Truck.new(6,"volvo",2022,"tai",1500,"99958","trang",30)
 
-managerVehicle.addVehicle(car1)
-managerVehicle.addVehicle(car2)
-managerVehicle.addVehicle(motorcycle1)
-managerVehicle.addVehicle(motorcycle2)
-managerVehicle.addVehicle(truck1)
-managerVehicle.addVehicle(truck2)
+managerVehicle_46.addVehicle(car1_46)
+managerVehicle_46.addVehicle(car2_46)
+managerVehicle_46.addVehicle(motorcycle1_46)
+managerVehicle_46.addVehicle(motorcycle2_46)
+managerVehicle_46.addVehicle(truck1_46)
+managerVehicle_46.addVehicle(truck2-46)
 
-managerVehicle.searchByBranch("volvo")
-managerVehicle.searchByColor("xanh")
-managerVehicle.searchByPlate("77483")
+managerVehicle_46.searchByBranch("volvo")
+managerVehicle_46.searchByColor("xanh")
+managerVehicle_46.searchByPlate("77483")
