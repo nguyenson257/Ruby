@@ -70,19 +70,20 @@ def div(phanso1,phanso2)
     ms = phanso1.mau * phanso2.tu
     PhanSo.new(ts,ms)
 end
+
+p1_46 = PhanSo.new(1,2)
+p2_46 = PhanSo.new(3,4)
 ## Method
-pp = plus(p1,p2)
-pp.to_s
-pp = sub(p1,p2)
-pp.to_s
-pp = mul(p1,p2)
-pp.to_s
-pp = div(p1,p2)
-pp.to_s
+pp_46 = plus(p1_46,p2_46)
+pp_46.to_s
+pp_46 = sub(p1_46,p2_46)
+pp_46.to_s
+pp_46 = mul(p1_46,p2_46)
+pp_46.to_s
+pp_46 = div(p1_46,p2_46)
+pp_46.to_s
 ## Overloading
-p1 = PhanSo.new(1,2)
-p2 = PhanSo.new(3,4)
-p1 + p2
-p1 - p2
-p1 * p2
-p1 / p2
+p1_46 + p2_46
+p1_46 - p2_46
+p1_46 * p2_46
+p1_46 / p2_46
