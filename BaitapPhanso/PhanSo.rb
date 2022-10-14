@@ -50,6 +50,36 @@ class PhanSo
         puts("#{@tu}/#{@mau}")
     end
 end
+def plus(phanso1,phanso2)
+    ts = phanso1.tu * phanso2.mau + phanso2.tu * phanso1.mau
+    ms = phanso1.mau * phanso2.mau
+    PhanSo.new(ts,ms)
+end
+def sub(phanso1,phanso2)
+    ts = phanso1.tu * phanso2.mau - phanso2.tu * phanso1.mau
+    ms = phanso1.mau * phanso2.mau
+    PhanSo.new(ts,ms)
+end
+def mul(phanso1,phanso2)
+    ts = phanso1.tu * phanso2.tu
+    ms = phanso1.mau * phanso2.mau
+    PhanSo.new(ts,ms)
+end
+def div(phanso1,phanso2)
+    ts = phanso1.tu * phanso2.mau
+    ms = phanso1.mau * phanso2.tu
+    PhanSo.new(ts,ms)
+end
+## Method
+pp = plus(p1,p2)
+pp.to_s
+pp = sub(p1,p2)
+pp.to_s
+pp = mul(p1,p2)
+pp.to_s
+pp = div(p1,p2)
+pp.to_s
+## Overloading
 p1 = PhanSo.new(1,2)
 p2 = PhanSo.new(3,4)
 p1 + p2
